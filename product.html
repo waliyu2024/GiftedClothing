@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Product- GiftedClothing.</title>
+  <meta name="title" content="">
+  <meta name="description" content="">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/gc_logo-removebg-preview.png" type="image/svg+xml">
+  
+
+<!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-65ca64ee-a29b-49b3-a9f0-e6f9339cc13a" data-elfsight-app-lazy></div>
+  
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+     <!-- google font link -->
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/about.css">
+  <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slide-3.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+
+   /* Dropdown container */
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0.5rem 0;
+  list-style: none;
+  display: none; /* Hidden by default */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 10;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Submenu links */
+.submenu-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submenu-link:hover {
+  background-color: #f0f0f0;
+  color: #ff9000;
+}
+
+/* Responsive Design - Dropdown behavior on smaller screens */
+@media (max-width: 768px) {
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    display: none; /* Hidden by default */
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  /* Show dropdown menu when clicked */
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+
+  /* Mobile-specific submenu links */
+  .submenu-link {
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+/* Show dropdown on click for smaller screens */
+@media (max-width: 768px) {
+  .dropdown {
+    cursor: pointer;
+  }
+  
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+}
+.video-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Adjust as needed */
+            margin: auto;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px; /* Optional styling */
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .play-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="/assets/gc_logo-removebg-preview.png" width="84" height="18" alt="" class="logo-light">
+
+        <img src="/assets/gc_logo-removebg-preview.png" width="84" height="18" alt="" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="/assets/gc_white-removebg-preview.png" width="97" height="24" alt="">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/index.html" class="navbar-link">Home</a>
+          </li>
+
+
+          <li>
+            <a href="/about.html" class="navbar-link">About</a>
+          </li>
+
+
+          <li class="dropdown">
+            <a href="/product.html" class="navbar-link">Product</a>
+            <ul class="dropdown-menu">
+              <!-- <li><a href="#" class="submenu-link">Quickmed</a></li>
+              <li><a href="#" class="submenu-link">Adnet</a></li>
+              <li><a href="#" class="submenu-link">Geez</a></li>
+              <li><a href="https://hacked8.vercel.app/" class="submenu-link">Hacked8</a></li> -->
+            </ul>
+          </li>
+          
+
+          <li>
+            <a href="/contact.html" class="navbar-link">Contact</a>
+          </li>
+
+          <!-- <li>
+            <a href="https://hacked8.vercel.app/" class="navbar-link">Academy</a>
+          </li> -->
+
+          <!-- <li>
+            <a href="/tean.html" class="navbar-link">Team</a>
+          </li> -->
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@adaintech.com" class="contact-link">info@adaintech.com</a>
+
+          <a href="tel:09045585701" class="contact-link">09045585701</a>
+        </div>
+
+        <ul class="social-list">
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-goggle"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- <a href="#" class="btn btn-primary">Free Trial</a> -->
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      
+<center>
+    <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <!-- <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1> -->
+
+            <p class="hero-text">
+                Check out our carefully curated collection and find the perfect outfit that suits your mood, occasion, and style preferences. From stunning Ankara pieces that celebrate culture to modern, sophisticated dresses that turn heads, our designs are crafted with precision and passion.
+            <div class="btn-wrapper">
+
+              <!-- <a href="#" class="btn btn-primary">Explore Now</a> -->
+
+              <!-- <a href="#" class="btn btn-outline">Contact Us</a> -->
+
+            </div>
+
+          </div>
+    <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/c8af4e1967aa46acf07bd91a6cb942e0.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="/assets/open.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                    <!-- <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button> -->
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/clear.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+
+
+                
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/hand.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/fab.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/suit.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+                <li class="slider-item">
+
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="/assets/spark.jpg" width="575" height="550" alt="" class="img-cover">
+                    </figure>
+  
+                  </li>
+
+                  <li class="slider-item">
+
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="/assets/yel.jpg" width="575" height="550" alt="" class="img-cover">
+                    </figure>
+  
+                  </li>
+
+
+                  <li class="slider-item">
+
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="/assets/perf.jpg" width="575" height="550" alt="" class="img-cover">
+                    </figure>
+  
+                  </li>
+
+                
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back" style="color: #fff;"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward" style="color: #fff;"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+</center>
+          
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <!-- <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label"></p>
+
+          <h2 class="h2 section-title">
+            Our Product
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 310; --height: 310;">
+                  <img src="/assets/images/geez.png" width="560" height="350" loading="lazy"
+                    alt="image" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">GEEZ</a>
+                  </h3>
+
+                  <p class="card-text">
+                    GEEZ is a mobile application developed to intrigue our clients with our innovative fashion tech solutions while also identifying with the uniqueness in each of our clients.
+                    Our aim is to become a global brand in the years to come starting from Abuja, Nigeria.
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item"> -->
+                      <!-- <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon> -->
+
+                      <!-- <time class="meta-text" datetime="2022-04-14"></time>
+                    </li>
+
+                    <li class="card-meta-item"> -->
+                      <!-- <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon> -->
+
+                      <!-- <span class="meta-text"></span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 350; --height: 270;">
+                  <img src="/assets/images/quickmedlogo.PNG" width="560" height="350" loading="lazy"
+                    alt="image" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">QuickMed</a>
+                  </h3>
+
+                  <p class="card-text">
+                    QuickMed is an Emergency Medical & Response Services (EMRS) platform that connects users to an array of quick medical services                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item"> -->
+                      <!-- <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon> -->
+<!-- 
+                      <time class="meta-text" datetime="2022-03-29"></time>
+                    </li>
+
+                    <li class="card-meta-item"> -->
+                      <!-- <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon> -->
+<!-- 
+                      <span class="meta-text"></span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 940; --height: 350;">
+                  <img src="/assets/images/azare 3.png" width="560" height="350" loading="lazy"
+                    alt="image" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">AZARE</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Azare is an AI powered agricultural community exchange platform developed to enhance productivity, boost farmers confidence in crop diseases management and providing an all
+                    inclusive Agro commodities market daily analysis.The platform is design too become African number one Agro product
+                    trading platform where both seller and client meet for trading reasons                    
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item"> -->
+                      <!-- <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon> -->
+
+                      <!-- <time class="meta-text" datetime="2022-02-26"></time>
+                    </li>
+
+                    <li class="card-meta-item"> -->
+                      <!-- <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon> -->
+
+                      <!-- <span class="meta-text"></span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+ 
+
+
+
+
+      <main>
+        <article>
+    
+          <!-- 
+            - #HERO
+          -->
+    
+          <!-- <section class="section hero has-bg-image" aria-label="home"
+            style="background-image: url('./assets/images/hero-bg.jpg')">
+            <div class="container">
+    
+              <div class="hero-content">
+    
+                <h1 class="h1 hero-title"></h1>
+    
+                <p class="hero-text">
+                  AdaIn Technologies Ltd is a trailblazing innovator in digital transformation, specializing in AI-driven solutions, cloud architecture, and cybersecurity. With a future-focused approach, AdaIn integrates cutting-edge technology to revolutionize business operations, enhance scalability, and drive efficiency. As a leader in advanced tech solutions, the company empowers organizations to stay ahead in an increasingly digital world.                </p>
+    
+                <div class="btn-wrapper">
+     -->
+                  <!-- <a href="#" class="btn btn-primary">Explore Now</a>
+    
+                  <a href="#" class="btn btn-outline">Contact Us</a>
+     -->
+                <!-- </div>
+    
+              </div>
+    
+              <div class="hero-slider" data-slider>
+    
+                <div class="slider-inner">
+                  <ul class="slider-container" data-slider-container> -->
+    
+                    <!-- <li class="slider-item">
+    
+                      <figure class="img-holder" style="--width: 575; --height: 550;">
+                        <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                      </figure>
+    
+                    </li> -->
+    
+                    <li class="slider-item">
+    
+                       <!-- <div class="hero-card">
+                        <figure class="img-holder" style="--width: 575; --height: 550;">
+                          <img src="/assets/pics/P1110074.JPG" width="575" height="550" alt="hero banner"
+                            class="img-cover">
+                        </figure> 
+    
+                        <button class="play-btn" aria-label="play adex intro">
+                          <ion-icon name="play" aria-hidden="true"></ion-icon> -->
+                          <!-- <video autoplay loop muted playsinline>
+                            <source src="/assets/pics/racheal interview 1.mp4" type="video/mp4">
+                           
+                          </video> -->
+                        </button>
+
+                        <!-- <div class="video-container">
+                          
+                          <video id="myVideo" poster="/assets/pics/P1110093.JPG">
+                            
+                              <source src="/assets/images/racheal interview 1.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                          </video>
+                          
+                          <button class="play-button" id="playBtn">▶</button>
+                      </div>
+                        
+                          
+                        
+                      </div>
+    
+                    </li> -->
+    
+                    <!-- <li class="slider-item">
+    
+                      <figure class="img-holder" style="--width: 575; --height: 550;">
+                        <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                      </figure>
+    
+                    </li>
+    
+                  </ul>
+                </div> -->
+    
+                <!-- <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+                  <ion-icon name="arrow-back"></ion-icon>
+                </button> -->
+    
+                <!-- <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+                  <ion-icon name="arrow-forward"></ion-icon>
+                </button> -->
+<!--     
+              </div>
+     -->
+            </div>
+          </section>
+    
+
+
+
+
+
+
+      <!-- <section class="contact-section">
+        <h2>Contact Us</h2>
+
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="location">City/Location</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="message">How can we help?</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+ -->
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <!-- <section class="section service" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">What We Do?</p>
+
+          <h2 class="h2 section-title">
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">24/7 Support</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Secure Payments</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Daily Updates</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Market Research</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+ -->
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+<!-- 
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              We bring solutions to make life easier for our clients.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Professional Design</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                    vel.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Top-Notch Support</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                    vel.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Exclusive Assets</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                    vel.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+ -->
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <!-- <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              We make your spending stress-free for you to have the perfect control.
+            </h2> -->
+<!-- 
+            <p class="section-text">
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
+              dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Aenean quam ornare. Curabitur blandit.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Nullam quis risus eget urna mollis ornare.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Etiam porta euismod malesuada mollis.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Vivamus sagittis lacus vel augue rutrum.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+ -->
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <!-- <section class="stats" aria-label="our stats">
+        <div class="container">
+
+          <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
+
+            <li>
+              <p class="card-text">
+                <span class="h1">7518</span>
+
+                <spna class="span">Completed Projects</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">3472</span>
+
+                <spna class="span">Happy Customers</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">2184</span>
+
+                <spna class="span">Expert Employees</spna>
+              </p>
+            </li>
+
+            <li>
+              <p class="card-text">
+                <span class="h1">4523</span>
+
+                <spna class="span">Awards Won</spna>
+              </p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+ -->
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <!-- <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Case Studies</p>
+
+          <h2 class="h2 section-title">
+            Check out some of our awesome projects with creative ideas and great design.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Ligula tristique quis risus</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
+                    imperdiet nun eu dolor.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Coding</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Nullam id dolor elit id nibh</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
+                    imperdiet nun eu dolor.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Workspace</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Ultricies fusce porta elit</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
+                    imperdiet nun eu dolor.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Meeting</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section> -->
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <!-- <h2 class="h2 section-title">
+            Join our community by using our services and grow your business.
+          </h2> -->
+
+          <!-- <a href="#" class="btn btn-primary">Try it For Free</a> -->
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+ 
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+            <img src="/assets/gc_white-removebg-preview.png" width="99" height="24" alt="">
+          </a>
+  
+
+        <p class="footer-text">
+            Join us in redefining your style with fashion.
+
+        </p>
+
+
+        <p class="footer-text">
+          &copy;2024 GiftedClothing<br>All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="tel:08100883870" class="social-link">
+              <i class="ri-phone-fill"></i>
+
+                        </a>
+          </li>
+
+          <li>
+            <a href="mailto:ogahgift05@gmail.com" class="social-link">
+              <i class="ri-mail-fill"></i>
+            </a>
+          </li>
+
+           <li>
+            <a href="https://www.instagram.com/gifted_clothing____?igsh=MTV1Nm95ZWhnOWJvbA==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> 
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Ojodu berger, 73 olowora rd, lagos.        
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:ogahgift05@gmail.com" class="footer-link">ogahgift05@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:08100883870" class="footer-link">08100883870</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Company</p>
+        </li>
+
+        <li>
+          <a href="/about.html" class="footer-link">About</a>
+        </li>
+
+        
+
+
+        <li>
+          <a href="#" class="footer-link">Our Vision</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Mission</a>
+        </li>
+
+        <li>
+          <a href="" class="footer-link">Our Team</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link"></a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="/script.js"></script>
+
+  <script>
+  const video = document.getElementById("myVideo");
+        const playButton = document.getElementById("playBtn");
+
+        playButton.addEventListener("click", function () {
+            video.play();
+            playButton.style.display = "none"; // Hide the play button after clicking
+        });
+
+        video.addEventListener("ended", function () {
+            playButton.style.display = "flex"; // Show the play button again when the video ends
+        });
+        </script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

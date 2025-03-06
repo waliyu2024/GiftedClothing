@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>GiftedClothing</title>
+  <meta name="title" content="">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="/assets/gc_logo-removebg-preview.png" type="image/svg+xml">
+  
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+<script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-65ca64ee-a29b-49b3-a9f0-e6f9339cc13a" data-elfsight-app-lazy></div>
+
+     <!-- google font link
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet"> -->
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/about.css">
+  <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="/assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slide-3.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+
+   /* Dropdown container */
+.dropdown {
+  position: relative;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0.5rem 0;
+  list-style: none;
+  display: none; /* Hidden by default */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 10;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Submenu links */
+.submenu-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+  font-size: 1.7rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.submenu-link:hover {
+  background-color: #f0f0f0;
+  color: #ff9000;
+}
+
+/* Responsive Design - Dropdown behavior on smaller screens */
+@media (max-width: 768px) {
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    display: none; /* Hidden by default */
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  /* Show dropdown menu when clicked */
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+
+  /* Mobile-specific submenu links */
+  .submenu-link {
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+/* Show dropdown on click for smaller screens */
+@media (max-width: 768px) {
+  .dropdown {
+    cursor: pointer;
+  }
+  
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+}
+.video-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px; /* Adjust as needed */
+            margin: auto;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px; /* Optional styling */
+        }
+
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .play-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="/assets/gc_logo-removebg-preview.png" width="84" height="18" alt="" class="logo-light">
+
+        <img src="/assets/gc_logo-removebg-preview.png" width="84" height="18" alt="" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="/assets/gc_white-removebg-preview.png" width="97" height="24" alt="">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="/about.html" class="navbar-link">About</a>
+          </li>
+
+          <li class="dropdown">
+            <a href="/product.html" class="navbar-link">Product</a>
+            <!-- <ul class="dropdown-menu"> -->
+              <!-- <li><a href="#" class="submenu-link">Quickmed</a></li>
+              <li><a href="#" class="submenu-link">Adnet</a></li>
+              <li><a href="#" class="submenu-link">Geez</a></li>
+              <li><a href="https://hacked8.vercel.app/" class="submenu-link">Hacked8</a></li> -->
+            <!-- </ul> -->
+          </li>
+          
+
+          <li>
+            <a href="/contact.html" class="navbar-link">Contact</a>
+          </li>
+
+          <li>
+            <!-- <a href="https://hacked8.vercel.app/" class="navbar-link">Academy</a> -->
+          </li>
+
+          <li>
+            <!-- <a href="/tean.html" class="navbar-link">Team</a> -->
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:ogahgift05@gmail.com" class="contact-link">ogahgift05@gmail.com</a>
+
+          <a href="tel:08100883870" class="contact-link">08100883870</a>
+        </div>
+
+        <ul class="social-list">
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="tel:08100883870" class="social-link">
+              <i class="ri-phone-fill"></i>  
+                      </a>
+          </li>
+
+          <li>
+            <a href="mailto:ogahgift05@gmail.com" class="social-link">
+              <i class="ri-mail-fill"></i>
+                        </a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- <a href="#" class="btn btn-primary">Free Trial</a> -->
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- <main>
+    <article> -->
+
+      <!-- 
+        - #HERO
+      -->
+<!-- 
+      <section class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content"> -->
+
+            <!-- <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1> -->
+<!-- 
+            <p class="hero-text">
+              AdaIn Technologies Ltd is a forward-thinking tech company specializing in innovative digital solutions, software development, and IT consulting. Committed to driving digital transformation, the company leverages cutting-edge technologies such as AI, cloud computing, and cybersecurity to help businesses optimize operations and enhance efficiency. With a strong focus on innovation and reliability, AdaIn Technologies Ltd delivers tailored solutions that empower organizations to thrive in the digital age.            </p>
+
+            <div class="btn-wrapper"> -->
+
+              <!-- <a href="#" class="btn btn-primary">Explore Now</a> -->
+
+              <!-- <a href="#" class="btn btn-outline">Contact Us</a> -->
+<!-- 
+            </div>
+
+          </div> -->
+<!-- 
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/images/girl.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="/assets/images/sit girl.jpg" width="575" height="550" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+
+                     <button class="play-btn" aria-label="play adex intro">
+                      <ion-icon name="play" aria-hidden="true"></ion-icon>
+                    </button> -->
+                  <!-- </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/images/sit.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+
+
+                
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/images/teacher.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/images/train.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="/assets/images/together.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back" style="color: #fff;"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward" style="color: #fff;"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>  -->
+
+
+                 
+
+
+          <!-- 
+            - #HERO
+          -->
+    
+          <section class="section hero has-bg-image" aria-label="home"
+            style="background-image: url('./assets/images/hero-bg.jpg')">
+            <div class="container">
+    
+              <div class="hero-content">
+    
+                <h1 class="h1 hero-title"></h1>
+    
+                <p class="hero-text">
+                  At GiftedClothing, we believe fashion is more than just clothing, it's an expression of individuality, culture, and confidence. Our brand is dedicated to crafting high-quality, stylish, and unique fashion pieces that celebrate diversity and empower individuals to embrace their personal style.
+
+                  From bold African prints to contemporary urban wear, we curate a collection that blends tradition with modern elegance. Whether you’re dressing for a special occasion or elevating your everyday look, our designs are made to inspire and stand out.
+                  
+                  At GiftedClothing, fashion isn’t just what we sell, it’s what we live and breathe. Join us in redefining style, one outfit at a time!    
+                <div class="btn-wrapper">
+    
+                  <!-- <a href="#" class="btn btn-primary">Explore Now</a>
+    
+                  <a href="#" class="btn btn-outline">Contact Us</a>
+     -->
+                </div>
+    
+              </div>
+    
+              <div class="hero-slider" data-slider>
+    
+                <div class="slider-inner">
+                  <ul class="slider-container" data-slider-container>
+    
+                    <!-- <li class="slider-item">
+    
+                      <figure class="img-holder" style="--width: 575; --height: 550;">
+                        <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                      </figure>
+    
+                    </li> -->
+    
+                    <li class="slider-item">
+    
+                       <!-- <div class="hero-card">
+                        <figure class="img-holder" style="--width: 575; --height: 550;">
+                          <img src="/assets/pics/P1110074.JPG" width="575" height="550" alt="hero banner"
+                            class="img-cover">
+                        </figure> 
+    
+                        <button class="play-btn" aria-label="play adex intro">
+                          <ion-icon name="play" aria-hidden="true"></ion-icon> -->
+                          <!-- <video autoplay loop muted playsinline>
+                            <source src="/assets/pics/racheal interview 1.mp4" type="video/mp4">
+                           
+                          </video> -->
+                        </button>
+
+                        <div class="video-container">
+                          
+                          <video id="myVideo" poster="/assets/gc_logo-removebg-preview.png">
+                            
+                              <source src="/assets/8bed69510194f13858d4dbe27774e904.mp4" type="video/mp4">
+                              Your browser does not support the video tag.
+                          </video>
+                          
+                          <button class="play-button" id="playBtn">▶</button>
+                      </div>
+                        
+                          
+                        
+                      </div>
+    
+                    </li>
+    
+            </div>
+          </section>
+    
+
+
+
+
+
+<!-- 
+       <section class="contact-section">
+        <h2>Contact Us</h2>
+
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="location">City/Location</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="message">How can we help?</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+  -->
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+<!-- 
+          <h2 class="h2 section-title">
+            Join our community by using our services and grow your business.
+          </h2> -->
+
+          <!-- <a href="#" class="btn btn-primary">Try it For Free</a> -->
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+ 
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="/assets/gc_white-removebg-preview.png" width="99" height="24" alt="">
+        </a>
+
+        <p class="footer-text" >
+          Join us in redefining your style with fashion.
+
+
+        </p>
+
+
+        <p class="footer-text">
+          &copy;2024 GiftedClothing<br>All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="tel:08100883870" class="social-link">
+              <i class="ri-phone-fill"></i>
+
+                        </a>
+          </li>
+
+          <li>
+            <a href="mailto:ogahgift05@gmail.com" class="social-link">
+              <i class="ri-mail-fill"></i>
+            </a>
+          </li>
+
+           <li>
+            <a href="https://www.instagram.com/gifted_clothing____?igsh=MTV1Nm95ZWhnOWJvbA==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> 
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+          Ojodu berger, 73 olowora rd, lagos.
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:ogahgift05@gmail.com" class="footer-link">ogahgift05@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:08100883870" class="footer-link">08100883870</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Company</p>
+        </li>
+
+        <li>
+          <a href="/about.html" class="footer-link">About</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Vision</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Mission</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Team</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link"></a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="/script.js"></script>
+
+  <script>
+  const video = document.getElementById("myVideo");
+        const playButton = document.getElementById("playBtn");
+
+        playButton.addEventListener("click", function () {
+            video.play();
+            playButton.style.display = "none"; // Hide the play button after clicking
+        });
+
+        video.addEventListener("ended", function () {
+            playButton.style.display = "flex"; // Show the play button again when the video ends
+        });
+        </script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
